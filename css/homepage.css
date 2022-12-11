@@ -4,20 +4,51 @@ html {
 }
 body {
     min-height: 100%;
-    font-size: 18px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-family: 'Montserrat', Fallback, sans-serif;
 }
-a 
-{ 
+
+@font-face {
+    font-family: Montserrat;
+    src: url('webfonts\Montserrat\Montserrat-Regular.ttf') format('ttf');
+}
+a { 
     text-decoration: none;
+    letter-spacing: 0.15rem;
+}
+
+h1{
+    font-size:4rem;
+    letter-spacing: 0.1rem;
+}
+h2{
+    font-size:2.5rem;
+}
+
+p{
+    line-height: 1.4;
+    letter-spacing: 0.15rem;
+}
+
+span{
+    letter-spacing: 0.15rem;
 }
 
 /* ---favicons--- */
 .fa-bullseye
 {
     margin-right:1rem;
+    margin-top: 1.2rem;
+    font-size:1.5rem;
 }
-
+.fa-file-alt
+{
+    margin-right:0.5rem;
+}
+.fa-envelope
+{
+    margin-right:0.5rem;
+}
 /* ---Specific targets--- */
 .canvas
 {
@@ -37,42 +68,38 @@ a
 .main-nav nav {
     display:flex;
 }
+
 .main-nav nav li{
     list-style: none;
     margin: 0 1rem;
 }
 
 /* Hero Section */
-.hero-section
-{
+.hero-section{
     padding: 3rem 0 0 0;
     display:flex;
     align-items: center;
 }
-.left-column
-{
+.left-column{
     width:50%;
 }
 
-#target-container
-{
+#target-container{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    margin-top: 2rem;
 }
-#target
-{
+#target{
     margin-top:1rem;
     max-width: 400px;
 }
 
-.right-column
-{
+.right-column{
     width:50%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
-.right-column #hero-image-container
-{
+.right-column #hero-image-container{
     border-radius: 4rem;
     background:#8873ef;
     height:500px;
@@ -81,9 +108,38 @@ a
     align-items: flex-end;
     overflow:hidden;
 }
-.right-column #hero-image-container #hero-image
-{
+.right-column #hero-image-container #hero-image{
     width:100%;
 }
+/* About Section */
+.about-section
+{
+    margin-top:4rem;
+}
+/* My Skills Section */
+.skills-section
+{
+    margin-top: 4rem;
+}
+.grid-skills-container
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}
+.grid-skills-item
+{
+    width: 112px;
+    background: #f6f8fc;
+    display: flex;
+    border-radius: 4rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+.grid-skills-item img{
+    max-width: 80px;
+    padding:1.5rem;
+}
+/* Typewriter Hero Section */
 
 /* 2nd Section (Below Hero) */
