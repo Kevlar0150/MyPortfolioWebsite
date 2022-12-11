@@ -1,0 +1,28 @@
+.purple-btn
+{
+    padding: 1rem;
+    background: #8873ef;
+    color: white;
+    border-radius: 0.8rem;
+    border: none;
+    cursor:pointer;
+    transition:box-shadow,0.2s;
+}
+.purple-btn:hover
+{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.white-btn
+{
+    padding: 1rem;
+    background: #ffffff;
+    color: black;
+    border-radius: 0.8rem;
+    border: 2px solid rgb(172, 172, 172);
+    cursor:pointer;
+    transition:box-shadow,0.2s;
+}
+.white-btn:hover
+{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

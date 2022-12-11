@@ -1,0 +1,89 @@
+/* ---General tags--- */
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a 
+{ 
+    text-decoration: none;
+}
+
+/* ---favicons--- */
+.fa-bullseye
+{
+    margin-right:1rem;
+}
+
+/* ---Specific targets--- */
+.canvas
+{
+    max-width:1300px;
+    margin: auto;
+    min-height: 100%;
+}
+.main-nav
+{
+    display:flex;
+    justify-content: space-between;
+    height:60px;
+    border-bottom: 1px solid rgb(211, 202, 202);
+}
+
+/* Nav */
+.main-nav nav {
+    display:flex;
+}
+.main-nav nav li{
+    list-style: none;
+    margin: 0 1rem;
+}
+
+/* Hero Section */
+.hero-section
+{
+    padding: 3rem 0 0 0;
+    display:flex;
+    align-items: center;
+}
+.left-column
+{
+    width:50%;
+}
+
+#target-container
+{
+    display: flex;
+    align-items: center;
+}
+#target
+{
+    margin-top:1rem;
+    max-width: 400px;
+}
+
+.right-column
+{
+    width:50%;
+    display: flex;
+    justify-content: center;
+}
+.right-column #hero-image-container
+{
+    border-radius: 4rem;
+    background:#8873ef;
+    height:500px;
+    max-width:420px;
+    display: flex;
+    align-items: flex-end;
+    overflow:hidden;
+}
+.right-column #hero-image-container #hero-image
+{
+    width:100%;
+}
+
+/* 2nd Section (Below Hero) */
