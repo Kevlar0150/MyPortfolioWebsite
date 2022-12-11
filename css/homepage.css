@@ -41,8 +41,9 @@ h2 {
 }
 
 p {
-    line-height: 1.4;
-    letter-spacing: 0.15rem;
+    line-height: 1.5;
+    letter-spacing: 0.2rem;
+    color:#464646;
 }
 
 span {
@@ -58,10 +59,11 @@ span {
 
 .fa-file-alt {
     margin-right: 0.5rem;
+    color:#464646;
 }
 
 .fa-envelope {
-    margin-right: 0.5rem;
+    margin-right: 0.5rem;   
 }
 
 /* ---Specific targets--- */
@@ -159,6 +161,17 @@ span {
     max-width: 80px;
     padding: 1.5rem;
 }
+
+/* Portfolio Section */
+.portfolio-section {
+    margin-top: 4rem;
+}
+/* Experience Section */
+
+.experience-section {
+    margin-top: 4rem;
+}
+
 
 /* Typewriter Hero Section */
 
